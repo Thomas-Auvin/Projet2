@@ -1,0 +1,32 @@
+# Fichiers temporaires et de verrouillage
+*~
+*.lock
+*.tmp
+*.bak
+*.swp
+*.swo
+.~lock.*
+
+# Fichiers bureautiques non versionnés
+*.odt
+*.ods
+
+# Fichiers de données lourds
+*.zip
+*.csv
+
+# Dossiers de checkpoints Jupyter
+.ipynb_checkpoints/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossier virtuel si utilisé
+venv/
+env/
